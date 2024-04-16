@@ -1,0 +1,68 @@
+.footer-content-wrapper {
+  width: max-content;
+  color: #333333;
+  cursor: pointer;
+}
+.footer-content-wrapper .footer-btn {
+  margin-left: 2px;
+  margin-left: 5px;
+}
+.select-bind-resident-drawer .ant-drawer-header {
+  padding: 16px 14px;
+}
+.bind-confirm-modal {
+  width: 472px;
+  border-radius: 8px;
+}
+.bind-confirm-modal .ant-modal-body {
+  padding: 0px 18px 16px;
+}
+.bind-confirm-modal .ant-modal-content {
+  width: 472px;
+  border-radius: 8px;
+}
+.bind-confirm-modal .ant-modal-header {
+  padding-bottom: 5px;
+  border-bottom: none;
+  border-radius: 8px;
+}
+.bind-confirm-modal .ant-modal-title {
+  color: #000000;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: Microsoft YaHei;
+  text-align: center;
+}
+.bind-confirm-modal .cell-left .cell-label {
+  color: #333333;
+  font-weight: 400;
+  font-size: 16px;
+  font-family: Microsoft YaHei;
+}
+.bind-confirm-modal .cell-left .cell-content {
+  color: #000000;
+  font-weight: 400;
+  font-size: 16px;
+  font-family: Microsoft YaHei;
+}
+.bind-confirm-modal .ant-modal-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 16px 20px;
+  border-top: none;
+}
+.bind-confirm-modal .ant-modal-footer button {
+  width: 215px;
+  height: 40px;
+  border-radius: 8px;
+}
+.bind-confirm-modal .ant-modal-footer button.ant-btn-default {
+  color: #666;
+  font-size: 16px;
+  background-color: #f3f3f3;
+  border: none;
+}
+.bind-confirm-modal .ant-modal-footer button.ant-btn-primary {
+  background-color: #0178ff;
+}

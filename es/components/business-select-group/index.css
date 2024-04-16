@@ -1,0 +1,82 @@
+:root {
+  --baseBgColor: whitesmoke;
+  --baseColor: #bdbdbd;
+  --paramColor: #1890ff;
+}
+.wrapClassName [class~='ant-modal-title'] {
+  font-weight: bold;
+  font-size: 15px;
+  text-align: center;
+}
+.wrapClassName [class~='ant-modal-header'] {
+  border-bottom: unset;
+}
+.wrapClassName [class~='ant-modal-footer'] {
+  background-color: #f5f5f5;
+}
+.wrapClassName .content-sty {
+  position: relative;
+  min-height: 500px;
+}
+.wrapClassName .content-sty [class~='ant-pagination-simple'] {
+  position: absolute;
+  bottom: -80px;
+}
+.wrapClassName .content-sty [class~='ant-pagination-simple'] [class~='ant-pagination-simple-pager'] {
+  margin-right: 0;
+}
+.wrapClassName .content-sty [class~='ant-pagination-simple'] [class~='ant-pagination-simple-pager'] input {
+  width: 50px;
+}
+.wrapClassName .content-sty [class~='ant-pagination-simple'] [class~='ant-pagination-next'] {
+  min-width: 16px;
+}
+.wrapClassName .content-sty .ant-table-tbody > tr.ant-table-row-selected > td {
+  background: transparent;
+}
+.wrapClassName .content-sty .reset-table-sty [class~='ant-table-small'] {
+  min-height: 450px;
+}
+.wrapClassName .content-sty .footer-tip {
+  position: absolute;
+  bottom: -63px;
+  left: 155px;
+}
+.wrapClassName .content-sty .footer-tip .tip-margin {
+  margin-right: 10px;
+}
+.wrapClassName .content-sty .footer-tip .select-btn {
+  color: var(--paramColor);
+  font-style: normal;
+  cursor: pointer;
+}
+.wrapClassName .base-color {
+  color: var(--baseColor);
+  font-size: 12px;
+}
+.wrapClassName .active-sty {
+  cursor: pointer;
+}
+.wrapClassName .active-sty:hover {
+  opacity: 0.7;
+}
+.wrapClassName .input-sty {
+  color: var(--baseColor);
+  background-color: var(--baseBgColor);
+  border: none;
+  outline: none;
+}
+.wrapClassName .input-sty [class~='ant-input'] {
+  background-color: var(--baseBgColor);
+}
+.wrapClassName .input-active {
+  color: #3c8cfe !important;
+  background-color: #e4f0fe !important;
+}
+.wrapClassName .input-active [class~='ant-input'] {
+  color: #3c8cfe !important;
+  background-color: #e4f0fe !important;
+}
+.read-sty .content-sty {
+  min-height: 450px !important;
+}

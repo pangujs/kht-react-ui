@@ -1,0 +1,11 @@
+import './index.less';
+import React from 'react';
+import { LayoutEvents, LayoutOptionType, InitSelectEvents, SelectedEvents, TableOptionsType, SearchFormOptionsType, SearchOptionsItemType, DrawerTableLayoutRefType } from './types';
+declare const _default: React.ForwardRefExoticComponent<Pick<any, string | number | symbol> & React.RefAttributes<unknown>>;
+export default _default;
+export declare const API: (props: LayoutOptionType) => JSX.Element;
+export declare const Events: (props: LayoutEvents | InitSelectEvents | SelectedEvents) => JSX.Element;
+export declare const TableOptions: (props: TableOptionsType) => JSX.Element;
+export declare const SearchFormOptions: (props: SearchFormOptionsType) => JSX.Element;
+export declare const searchOptions: (props: SearchOptionsItemType) => JSX.Element;
+export declare const DrawerTableLayoutRef: (props: DrawerTableLayoutRefType) => JSX.Element;

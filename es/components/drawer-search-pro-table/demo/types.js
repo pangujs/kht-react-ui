@@ -1,0 +1,1 @@
+export var CURRENT_ENTERPRISE_DATA = 'current-enterprise-data'; //当前打开应用的数据对象

@@ -1,0 +1,219 @@
+.select-role-tree-drawer .ant-drawer-header {
+  height: 59px;
+  padding-left: 15px;
+}
+.select-role-tree-drawer .ant-drawer-header .ant-drawer-close {
+  margin-right: 8px;
+}
+.select-role-tree-drawer .ant-drawer-body {
+  position: relative;
+  padding: 0;
+}
+.select-role-tree-drawer .ant-drawer-body .role-tree-body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.select-role-tree-drawer .ant-drawer-body .role-tree-body .tree-content {
+  flex: 1;
+  min-height: 0;
+  padding: 20px 20px 0 20px;
+}
+.select-role-tree-drawer .ant-drawer-body .role-tree-body .selected-info {
+  width: 100%;
+  height: 52px;
+  padding-left: 20px;
+  line-height: 52px;
+  background: #f8f8f8;
+}
+.select-role-tree-drawer .ant-drawer-body .role-tree-body .selected-info .ant-checkbox-wrapper {
+  color: #999999;
+}
+.select-role-tree-drawer .ant-drawer-body .role-tree-body .selected-info .check-info > span:first-child {
+  color: #999999;
+  font-size: 14px;
+}
+.select-role-tree-drawer .ant-drawer-body .role-tree-body .selected-info .check-info > span:last-child {
+  color: #0178ff;
+  font-size: 14px;
+  cursor: pointer;
+}
+.select-role-tree-drawer .ant-drawer-body .role-tree-body .ant-tree-list .ant-tree-treenode-disabled .ant-tree-node-content-wrapper {
+  color: rgba(0, 0, 0, 0.85);
+}
+.select-role-tree-drawer .ant-drawer-body .role-tree-body .ant-input-affix-wrapper {
+  width: 100% !important;
+}
+.select-role-tree-drawer .ant-drawer-body .role-tree-body .ant-tree-treenode {
+  position: relative;
+  align-items: center;
+  min-width: 413px;
+  height: 40px;
+}
+.select-role-tree-drawer .ant-drawer-body .role-tree-body .ant-tree-treenode .ant-tree-switcher {
+  display: flex;
+  align-items: center;
+}
+.select-role-tree-drawer .ant-drawer-body .role-tree-body .ant-tree-treenode .ant-tree-switcher span {
+  color: #999;
+}
+.select-role-tree-drawer .ant-drawer-body .role-tree-body .ant-tree-checkbox {
+  position: absolute;
+  right: 10px;
+}
+.select-role-tree-drawer .ant-drawer-body .ant-tree-list-holder-inner .ant-tree-treenode:nth-of-type(odd) {
+  background: #f9fafc;
+}
+.select-role-tree-drawer .ant-drawer-body .ant-tree-list-holder-inner .ant-tree-treenode:nth-of-type(even) {
+  background: #fff;
+}
+.select-role-tree-drawer .ant-drawer-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+  background: #fefefe;
+}
+.select-role-tree-drawer .ant-drawer-footer button {
+  width: 120px;
+  height: 32px;
+  border-radius: 4px;
+}
+.select-role-tree-drawer .ant-drawer-footer button:first-child {
+  margin-right: 0;
+}
+.select-role-tree-drawer .ant-drawer-footer button:first-of-type {
+  background: #f1f1f1;
+  border: none;
+  border-radius: 4px;
+}
+.select-role-tree-drawer .ant-drawer-footer button:first-of-type span {
+  color: #010101;
+}
+.selected-role-tree-drawer .ant-drawer-header {
+  height: 59px;
+  padding-left: 15px;
+}
+.selected-role-tree-drawer .ant-drawer-header .ant-drawer-close {
+  margin-right: 8px;
+}
+.selected-role-tree-drawer .ant-drawer-body {
+  position: relative;
+  padding: 0;
+}
+.selected-role-tree-drawer .ant-drawer-body .role-tree-body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.selected-role-tree-drawer .ant-drawer-body .role-tree-body .tree-content {
+  flex: 1;
+  min-height: 0;
+  padding: 20px 20px 0 20px;
+}
+.selected-role-tree-drawer .ant-drawer-body .role-tree-body .selected-info {
+  width: 100%;
+  height: 52px;
+  padding-left: 20px;
+  line-height: 52px;
+  background: #f8f8f8;
+}
+.selected-role-tree-drawer .ant-drawer-body .role-tree-body .selected-info .ant-checkbox-wrapper {
+  color: #999999;
+}
+.selected-role-tree-drawer .ant-drawer-body .role-tree-body .selected-info .check-info > span:first-child {
+  color: #999999;
+  font-size: 14px;
+}
+.selected-role-tree-drawer .ant-drawer-body .role-tree-body .selected-info .check-info > span:last-child {
+  color: #0178ff;
+  font-size: 14px;
+  cursor: pointer;
+}
+.selected-role-tree-drawer .ant-drawer-body .role-tree-body .ant-tree-list .ant-tree-treenode-disabled .ant-tree-node-content-wrapper {
+  color: rgba(0, 0, 0, 0.85);
+}
+.selected-role-tree-drawer .ant-drawer-body .role-tree-body .ant-input-affix-wrapper {
+  width: 100% !important;
+}
+.selected-role-tree-drawer .ant-drawer-body .role-tree-body .ant-tree-treenode {
+  position: relative;
+  align-items: center;
+  min-width: 413px;
+  height: 40px;
+}
+.selected-role-tree-drawer .ant-drawer-body .role-tree-body .ant-tree-treenode .ant-tree-switcher {
+  display: flex;
+  align-items: center;
+}
+.selected-role-tree-drawer .ant-drawer-body .role-tree-body .ant-tree-treenode .ant-tree-switcher span {
+  color: #999;
+}
+.selected-role-tree-drawer .ant-drawer-body .role-tree-body .ant-tree-checkbox {
+  position: absolute;
+  right: 10px;
+}
+.selected-role-tree-drawer .ant-drawer-body .ant-tree-list-holder-inner .ant-tree-treenode:nth-of-type(odd) {
+  background: #f9fafc;
+}
+.selected-role-tree-drawer .ant-drawer-body .ant-tree-list-holder-inner .ant-tree-treenode:nth-of-type(even) {
+  background: #fff;
+}
+.selected-role-tree-drawer .ant-drawer-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+  background: #fefefe;
+}
+.selected-role-tree-drawer .ant-drawer-footer button {
+  width: 120px;
+  height: 32px;
+  border-radius: 4px;
+}
+.selected-role-tree-drawer .ant-drawer-footer button:first-child {
+  margin-right: 0;
+}
+.selected-role-tree-drawer .ant-drawer-footer button:first-of-type {
+  background: #f1f1f1;
+  border: none;
+  border-radius: 4px;
+}
+.selected-role-tree-drawer .ant-drawer-footer button:first-of-type span {
+  color: #010101;
+}
+.selected-role-tree-drawer .ant-drawer-body {
+  padding: 20px 0 0 0;
+}
+.selected-role-tree-drawer .ant-drawer-body .table-content {
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 160px);
+  padding: 0 20px;
+}
+.selected-role-tree-drawer .ant-tooltip-inner {
+  color: #000;
+}
+.selected-role-tree-drawer .ant-drawer-body .row {
+  display: flex;
+  align-items: center;
+}
+.selected-role-tree-drawer .ant-drawer-body .row .file {
+  display: inline-block;
+  width: 16px;
+  height: 14px;
+  margin-right: 9px;
+  background: url('../../assets/images/file.png');
+  background-size: 100% 100%;
+}
+.selected-role-tree-drawer .ant-table-header thead > tr > th {
+  background-color: #f3f3f3;
+  border: none;
+}
+.dropdown-menu .ant-dropdown-menu {
+  border-radius: 4px;
+  box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.16);
+}
+.dropdown-menu .ant-dropdown-menu-item {
+  text-align: center;
+}

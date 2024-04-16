@@ -1,0 +1,42 @@
+.text-overflow {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.custom-modal-sty .reset-table-sty-modal [class~='ant-pagination-simple'] {
+  position: absolute;
+  top: -58px;
+  right: 0;
+}
+.custom-modal-sty .reset-table-sty-modal [class~='ant-pagination-simple-pager'] {
+  margin-right: 0;
+}
+.custom-modal-sty .reset-table-sty-modal [class~='ant-pagination-simple-pager'] input {
+  width: 35px;
+}
+.custom-modal-sty .reset-table-sty-modal .ant-table-tbody > tr.ant-table-row-selected > td {
+  background: transparent;
+}
+.custom-modal-sty [class~='ant-pro-table-list-toolbar-right'] {
+  display: none;
+}
+.custom-modal-sty [class~='ant-pro-card-body'] {
+  padding-inline: unset !important;
+}
+.custom-modal-sty .input-sty {
+  color: var(--baseColor);
+  background-color: var(--baseBgColor);
+  border: none;
+  outline: none;
+}
+.custom-modal-sty .input-sty [class~='ant-input'] {
+  background-color: var(--baseBgColor);
+}
+.custom-modal-sty .input-active {
+  color: #3c8cfe !important;
+  background-color: #e4f0fe !important;
+}
+.custom-modal-sty .input-active [class~='ant-input'] {
+  color: #3c8cfe !important;
+  background-color: #e4f0fe !important;
+}

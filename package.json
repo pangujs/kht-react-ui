@@ -1,0 +1,84 @@
+{
+  "private": false,
+  "name": "kht-react-ui",
+  "version": "1.4.08",
+  "license": "MIT",
+  "description": "客户通 - 前端公共组件库 ( 适用于React TS )",
+  "author": "客户通 - 前端团队",
+  "scripts": {
+    "start": "dumi dev",
+    "docs:build": "dumi build",
+    "docs:deploy": "gh-pages -d docs-dist",
+    "build": "father-build && npm run docs:build",
+    "deploy": "npm run docs:build && npm run docs:deploy",
+    "prettier": "prettier --write \"**/*.{js,jsx,tsx,ts,less,md,json}\"",
+    "test": "umi-test",
+    "test:coverage": "umi-test --coverage",
+    "prepublishOnly": "npm run build",
+    "commit": "git-cz"
+  },
+  "module": "es/index.js",
+  "typings": "es/index.d.ts",
+  "gitHooks": {
+    "pre-commit": "lint-staged"
+  },
+  "lint-staged": {
+    "*.{js,jsx,less,md,json}": [
+      "prettier --write"
+    ],
+    "*.ts?(x)": [
+      "prettier --parser=typescript --write"
+    ]
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-customizable"
+    }
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.18.9",
+    "@types/react-router-dom": "^5.3.3",
+    "ahooks": "^3.7.8",
+    "antd": "^4.18.8 || ^4.23.0",
+    "immutability-helper": "^3.1.1",
+    "jspdf": "^2.5.1",
+    "mockjs": "^1.1.0",
+    "react": "^16.12.0 || ^17.0.0 || ^18.0.0",
+    "react-custom-scrollbars": "^4.2.1",
+    "react-dnd": "^16.0.1",
+    "react-dnd-html5-backend": "^16.0.1",
+    "react-router-dom": "^6.4.4"
+  },
+  "devDependencies": {
+    "@ant-design/pro-components": "^2.4.2",
+    "@commitlint/config-conventional": "^16.2.1",
+    "@testing-library/jest-dom": "^5.15.1",
+    "@testing-library/react": "^12.1.2",
+    "@types/axios": "^0.14.0",
+    "@types/jest": "^27.0.3",
+    "@types/lodash": "^4.14.182",
+    "@types/mockjs": "^1.0.6",
+    "@types/node": "^17.0.21",
+    "@types/react-custom-scrollbars": "^4.0.10",
+    "@umijs/fabric": "^2.8.1",
+    "@umijs/test": "^3.0.5",
+    "axios": "^0.27.2",
+    "babel-plugin-import": "^1.13.3",
+    "commitizen": "^4.2.4",
+    "commitlint": "^16.2.1",
+    "commitlint-config-cz": "^0.13.3",
+    "cz-conventional-changelog": "^3.3.0",
+    "cz-customizable": "^6.3.0",
+    "dumi": "^1.1.0",
+    "eslint": "^8.10.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "father-build": "^1.17.2",
+    "gh-pages": "^3.0.0",
+    "husky": "^7.0.4",
+    "lint-staged": "^10.0.7",
+    "lodash": "^4.17.21",
+    "prettier": "^2.2.1",
+    "yorkie": "^2.0.0"
+  }
+}

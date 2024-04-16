@@ -1,0 +1,119 @@
+.select-organization-role-drawer-tree-wrapper .ant-drawer-header {
+  padding-left: 14px;
+}
+.select-organization-role-drawer-tree-wrapper .ant-drawer-body .ant-input-affix-wrapper {
+  width: 100% !important;
+  border-radius: 4px;
+}
+.select-organization-role-drawer-tree-wrapper .ant-drawer-body .ant-input-affix-wrapper .ant-input-prefix {
+  color: #bbb;
+}
+.select-organization-role-drawer-tree-wrapper .ant-drawer-body .ant-tree-checkbox {
+  margin: 4px 10px 0 0;
+}
+.select-organization-role-drawer-tree-wrapper .ant-drawer-body .ant-tree-list .ant-tree-list-holder-inner .ant-tree-node-content-wrapper {
+  padding-left: 0;
+}
+.select-organization-role-drawer-tree-wrapper .ant-drawer-body .ant-tree-list .ant-tree-treenode {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  padding: 0;
+  padding-left: 8px;
+}
+.select-organization-role-drawer-tree-wrapper .ant-drawer-body .ant-tree-list .ant-tree-treenode .ant-tree-title > div > div > span {
+  max-width: calc(100% - 25px);
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.select-organization-role-drawer-tree-wrapper .ant-drawer-body .ant-tree-list .ant-tree-treenode .ant-tree-title .ant-tooltip {
+  max-width: 100%;
+  white-space: wrap;
+}
+.select-organization-role-drawer-tree-wrapper .ant-drawer-body .ant-tree-list .ant-tree-treenode .ant-tree-switcher {
+  display: flex;
+  align-items: center;
+  width: 10px;
+}
+.select-organization-role-drawer-tree-wrapper .ant-drawer-body .ant-tree-list .ant-tree-treenode .ant-tree-switcher span {
+  color: #999;
+}
+.select-organization-role-drawer-tree-wrapper .ant-drawer-body .ant-tree-list .ant-tree-treenode .ant-tree-title {
+  padding-left: 4px;
+}
+.select-organization-role-drawer-tree-wrapper .selected-car-popover {
+  left: 84px !important;
+  max-width: 80%;
+}
+.select-organization-role-drawer-tree-wrapper .selected-car-popover .ant-popover-inner-content {
+  padding: 10px;
+}
+.select-organization-role-drawer-tree-wrapper .selected-car-popover .ant-popover-inner {
+  color: #000000;
+  border-radius: 4px;
+  box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.24);
+}
+.selected-organization-role-drawer-tree-wrapper .ant-drawer-header {
+  padding-left: 14px;
+}
+.selected-organization-role-drawer-tree-wrapper .ant-drawer-body {
+  padding: 20px;
+}
+.selected-organization-role-drawer-tree-wrapper .drawer-body-content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.selected-organization-role-drawer-tree-wrapper .drawer-body-content .table-content {
+  flex: 1;
+  min-height: 0;
+  overflow: auto !important;
+}
+.selected-organization-role-drawer-tree-wrapper .drawer-body-content .table-content .ant-tree-treenode {
+  position: relative;
+  min-width: 413px;
+}
+.selected-organization-role-drawer-tree-wrapper .drawer-body-content .table-content .ant-tree-checkbox {
+  position: absolute;
+  right: 10px;
+}
+.selected-organization-role-drawer-tree-wrapper .ant-drawer-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+  background: #fefefe;
+}
+.selected-organization-role-drawer-tree-wrapper .ant-drawer-footer button {
+  width: 120px;
+  height: 32px;
+  border-radius: 4px;
+}
+.selected-organization-role-drawer-tree-wrapper .ant-drawer-footer button:first-child {
+  margin-right: 0;
+}
+.select-organization-role-drawer-tree-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 49px;
+}
+.select-organization-role-drawer-tree-footer button {
+  width: 120px;
+}
+.select-organization-role-drawer-tree-footer button ~ button {
+  margin-left: 10px;
+}
+.select-organization-role-bottom-title {
+  position: fixed;
+  right: 0;
+  bottom: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  height: 52px;
+  padding: 0 20px;
+  background: #f8f8f8;
+}

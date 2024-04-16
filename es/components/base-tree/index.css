@@ -1,0 +1,51 @@
+.tree-new-style-menu .ant-tree-treenode {
+  width: max-content !important;
+  height: 36px;
+  margin: 0 0 4px 0;
+  padding: 0 !important;
+  border-radius: 4px;
+}
+.tree-new-style-menu .ant-tree-treenode .ant-tree-iconEle {
+  height: 36px;
+  line-height: 36px;
+}
+.tree-new-style-menu .ant-tree-treenode:hover {
+  color: #0178ff;
+  background-color: #f3f3f3;
+}
+.tree-new-style-menu .ant-tree-treenode.ant-tree-treenode-selected {
+  color: #0178ff;
+  background-color: rgba(1, 120, 255, 0.1);
+}
+.tree-new-style-menu .ant-tree-treenode.ant-tree-treenode-selected [role~='img'] {
+  color: #0178ff !important;
+}
+.tree-new-style-menu .ant-tree-treenode.ant-tree-treenode-selected .ant-tree-node-content-wrapper {
+  background-color: transparent;
+}
+.tree-new-style-menu .ant-tree-treenode.ant-tree-treenode-selected .ant-tree-title {
+  line-height: 36px;
+}
+.tree-new-style-menu .ant-tree-treenode .ant-tree-switcher {
+  width: 25px !important;
+  padding-left: 10px;
+  line-height: 36px;
+}
+.tree-new-style-menu .ant-tree-treenode .ant-tree-node-content-wrapper {
+  align-items: center;
+  min-width: 185px;
+  height: 100%;
+  background-color: transparent;
+  border-radius: 4px;
+}
+.tree-new-style-menu .ant-tree-treenode .ant-tree-node-content-wrapper:hover {
+  background-color: transparent;
+}
+.tree-new-style-menu .ant-tree-treenode .ant-tree-node-content-wrapper .ant-tree-title {
+  line-height: 36px;
+  background-color: transparent;
+}
+.tree-new-style-menu .ant-tree-treenode .ant-tree-node-content-wrapper .ant-tree-title span {
+  width: 177px;
+  max-width: auto !important;
+}

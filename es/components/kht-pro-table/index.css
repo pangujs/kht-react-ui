@@ -1,0 +1,41 @@
+.drawer-pro-table .ant-table-body {
+  overflow: auto !important;
+  /* 1,滚动条 */
+  /* 2,滚动条两端的按钮 */
+  /* 3,外层轨道 */
+  /* 4.内层轨道，它会覆盖外层轨道的样式。 */
+  /* 5,滑块 */
+}
+.drawer-pro-table .ant-table-body::-webkit-scrollbar {
+  width: 8px;
+  /* 纵向滚动条 宽度 */
+  height: 8px;
+  /* 横向滚动条 高度 */
+  background: transparent;
+  /* 整体背景 */
+  border-radius: 4px;
+  /* 整体 圆角 */
+}
+.drawer-pro-table .ant-table-body::-webkit-scrollbar-button {
+  width: 0;
+  /* 横向滚动条 宽度 */
+  height: 0;
+  /* 纵向滚动条 高度 */
+}
+.drawer-pro-table .ant-table-body::-webkit-scrollbar-track {
+  border-radius: 4px;
+}
+.drawer-pro-table .ant-table-body::-webkit-scrollbar-track-piece {
+  border-radius: 4px;
+}
+.drawer-pro-table .ant-table-body::-webkit-scrollbar-thumb {
+  background: #ddd;
+  border-radius: 4px;
+}
+.drawer-pro-table .ant-pagination .ant-pagination-item-active {
+  background-color: #1890ff;
+  border-color: transparent;
+}
+.drawer-pro-table .ant-pagination .ant-pagination-item-active a {
+  color: #fff;
+}

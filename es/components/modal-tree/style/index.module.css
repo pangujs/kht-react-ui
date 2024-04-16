@@ -1,0 +1,85 @@
+.modal-title-styl {
+  font-weight: bold;
+  text-align: center;
+}
+.modal-tree-container {
+  display: flex;
+  height: 450px;
+  max-height: 450px;
+}
+.modal-tree-container .tree-sorce {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  height: 100%;
+}
+.modal-tree-container .select-item {
+  flex: 1;
+  height: 100%;
+  padding: 0 10px;
+  border-left: 1px solid #f3f3f3;
+}
+.modal-tree-container .select-item .tools-styl {
+  display: flex;
+}
+.modal-tree-container .select-item .tools-select {
+  flex: 1;
+  text-align: left;
+}
+.modal-tree-container .select-item .tools-select i {
+  color: #1890ff;
+  font-style: normal;
+}
+.modal-tree-container .select-item .tools-clear {
+  color: #1890ff;
+  text-align: right;
+  cursor: pointer;
+}
+.modal-tree-container [class~='ant-tree-node-content-wrapper'] {
+  position: unset !important;
+}
+.select-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 5px 0;
+  padding: 5px 0;
+  cursor: pointer;
+}
+.select-list [role~='img'] {
+  margin: auto 5px;
+  font-size: 14px;
+}
+.select-list .select-name {
+  flex: 1;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.select-list .suffix {
+  margin-right: 5px;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+.wrapClassName [class~='ant-modal-title'] {
+  font-weight: bold;
+  font-size: 15px;
+  text-align: center;
+}
+.wrapClassName [class~='ant-modal-header'] {
+  border-bottom: unset;
+}
+.wrapClassName [class~='ant-modal-footer'] {
+  background-color: #f5f5f5;
+}
+.modal-footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  height: 53px;
+  padding: 10px 16px;
+}
+.modal-footer .item-checkbox {
+  margin: auto;
+}

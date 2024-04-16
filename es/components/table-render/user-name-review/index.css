@@ -1,0 +1,21 @@
+.user-type .icon-avatar {
+  display: inline-block;
+  width: 34px;
+  height: 34px;
+  border-radius: 34px;
+}
+.user-type .avatar {
+  font-size: 14px;
+}
+.user-type .margin-left {
+  margin-left: 5px;
+}
+.user-type .black {
+  color: #333;
+}
+.user-type .green {
+  color: #00b42a;
+}
+.user-type .red {
+  color: #f77234;
+}

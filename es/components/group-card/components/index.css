@@ -1,0 +1,10 @@
+.kht-group-card-content .more-resident-text {
+  cursor: pointer;
+}
+.kht-group-card-content .more-resident-text:hover {
+  color: #1890ff;
+}
+.kht-group-card-content .ant-descriptions-row > th,
+.kht-group-card-content .ant-descriptions-row > td {
+  padding-bottom: 16px !important;
+}

@@ -1,0 +1,69 @@
+.project-screen-drawer .ant-drawer-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+  background: #fefefe;
+}
+.project-screen-drawer .ant-drawer-footer button {
+  width: 120px;
+  height: 32px;
+  border-radius: 4px;
+}
+.project-screen-drawer .ant-drawer-footer button:first-child {
+  margin-right: 0;
+}
+.project-screen-drawer .ant-drawer-body {
+  padding: 20px;
+}
+.project-screen-drawer .content-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.project-screen-drawer .content-wrapper .search-container {
+  display: block;
+  min-height: 40px;
+}
+.project-screen-drawer .content-wrapper .table-layout-container {
+  flex: 1;
+}
+.project-screen-drawer .content-wrapper .table-layout-container .drawer-table-layout {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.project-screen-drawer .content-wrapper .table-layout-container .drawer-table-layout > .ant-pro {
+  flex: 1;
+}
+.project-screen-drawer .content-wrapper .table-layout-container .drawer-table-layout > div:last-child {
+  margin-bottom: 10px;
+}
+.project-screen-drawer .content-wrapper .content-item {
+  display: flex;
+  margin-bottom: 20px;
+}
+.project-screen-drawer .content-wrapper .content-item .item-label {
+  margin-right: 36px;
+}
+.project-screen-drawer .content-wrapper .content-item .item-detail {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.project-screen-drawer .content-wrapper .content-item .item-detail > span:last-child {
+  width: max-content;
+  color: #0178ff;
+  cursor: pointer;
+}
+.customer-add-people-footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: max-content;
+  color: #666666;
+  cursor: pointer;
+}
+.customer-add-people-footer-content .footer-btn {
+  margin-left: 2px;
+}

@@ -1,0 +1,33 @@
+.common-hover-style .name-style:hover,
+.common-hover-style .more-type:hover {
+  color: #0178ff;
+  cursor: pointer;
+}
+.common-hover-style .name-style {
+  display: inline-block;
+  max-width: 200px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.current-dept-name-popover .ant-popover-inner {
+  max-width: 244px;
+  color: #000000;
+  border-radius: 4px;
+  box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.24);
+}
+.current-dept-name-popover .ant-popover-inner .ant-popover-inner-content {
+  padding: 8px;
+}
+.select-dept-name-popover {
+  left: 52px !important;
+  max-width: 86%;
+}
+.select-dept-name-popover .ant-popover-inner {
+  color: #000000;
+  border-radius: 4px;
+  box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.24);
+}
+.select-dept-name-popover .ant-popover-inner .ant-popover-inner-content {
+  padding: 10px;
+}

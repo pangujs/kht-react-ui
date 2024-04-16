@@ -1,0 +1,45 @@
+.kht-collapse-panel {
+  position: relative;
+  display: flex;
+  width: auto !important;
+  height: 100%;
+  background-color: #fff;
+}
+.kht-collapse-panel .collapse-panel-left {
+  width: 250px;
+  border-right: 1px solid #f3f3f3;
+}
+.kht-collapse-panel .collapse-panel-left .panel-left {
+  height: 100%;
+  padding: 20px 10px 10px;
+}
+.kht-collapse-panel .collapse-panel-right {
+  width: 250px;
+  overflow: hidden;
+  border-right: 1px solid #f3f3f3;
+  transition: width 0.3s;
+}
+.kht-collapse-panel .collapse-panel-right.collapse {
+  width: 0px;
+  border-right: none;
+}
+.kht-collapse-panel .collapse-panel-right .panel-right {
+  height: 100%;
+  padding: 20px 10px 10px;
+}
+.kht-collapse-panel .collapse-box {
+  position: absolute;
+  top: 50%;
+  right: -15px;
+  z-index: 100;
+  width: 15px;
+  height: 50px;
+  margin-top: -25px;
+  line-height: 50px;
+  text-align: center;
+  background-color: #fff;
+  border: 1px solid #f3f3f3;
+  border-left: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}

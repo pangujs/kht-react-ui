@@ -1,0 +1,180 @@
+.tree-box-style {
+  height: 100%;
+  min-height: 240px;
+}
+.tree-box-style .tree-contianer {
+  height: calc(100% - 40px);
+  min-height: calc(240px - 40px);
+}
+.tree-box-style .tree-contianer .clear-min-height {
+  min-height: unset !important;
+}
+.tree-box-style .tree-contianer [class~='ant-spin-nested-loading'] {
+  height: 100%;
+  min-height: calc(240px - 40px);
+}
+.tree-box-style .tree-contianer [class~='ant-spin-container'] {
+  height: 100%;
+}
+.tree-box-style .tree-contianer [class~='ant-tree-switcher'] {
+  width: 15px;
+}
+.tree-box-style .tree-contianer [class~='ant-tree-iconEle'] {
+  width: 20px;
+}
+.tree-box-style .tree-contianer [class~='ant-tree-treenode'] {
+  width: 100%;
+}
+.tree-box-style .tree-head-select-full-text {
+  display: flex;
+  align-items: center;
+  height: 25px;
+  margin-bottom: 5px;
+  padding: 0 10px;
+  color: #333333;
+  line-height: 25px;
+  background: #f9f9f9;
+  border-radius: 4px;
+}
+.tree-box-style .tree-head-select-full-text .label {
+  display: inline-block;
+  flex: 1;
+  width: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.tree-box-style .tree-head-select-full-text .select-icon {
+  cursor: pointer;
+}
+.tree-node-styl {
+  padding-right: 10px;
+}
+.tree-node-styl [class~='ant-tree-checkbox'] {
+  position: absolute;
+  right: 0;
+}
+.tree-node-styl [class~='ant-tree-node-selected'] {
+  background-color: unset !important;
+}
+.tree-node-styl [class~='ant-tree-node-content-wrapper']:hover .tree-title-box-title {
+  background-color: transparent;
+}
+.tree-node-styl [class~='ant-tree-list-scrollbar'] {
+  right: -8px !important;
+}
+.tree-node-styl [class~='ant-tree-node-content-wrapper'] {
+  display: flex;
+}
+.tree-node-styl .tree-title-box-title {
+  background-color: #fff;
+}
+.tree-base-style [class~='ant-tree-node-content-wrapper'] {
+  position: unset !important;
+  display: flex;
+  padding: 0px;
+}
+.tree-title-box {
+  width: 100%;
+}
+.tree-title-box .tree-box {
+  display: flex;
+}
+.tree-title-box-title {
+  display: inline-block;
+  max-width: 200px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.tree-title-box .selectable {
+  margin: auto;
+  padding-left: 10px;
+  color: #4fa1fb;
+  font-size: 17px;
+  text-align: left;
+}
+.tree-title-box .suffix {
+  position: absolute;
+  right: 0;
+  margin-right: 5px;
+  color: #b3b3b3;
+  font-size: 12px;
+  text-align: right;
+}
+.tree-title-box .check-suffix {
+  right: 30px;
+}
+.tree-title-box .suffix-color {
+  color: #b3b3b3;
+}
+.tree-item-disable {
+  color: #b3b3b3;
+}
+.more-btn-style {
+  min-width: 60px;
+  color: #82a1ff;
+}
+.max-width-none {
+  max-width: unset;
+}
+.tree-title-box-title {
+  min-width: 40px;
+}
+.background-color-full [class~='ant-tree-treenode-selected'] {
+  width: 100%;
+  color: #fff;
+  background: #1890ffa3;
+}
+.background-color-full [class~='ant-tree-treenode-selected'] [class~='ant-tree-node-content-wrapper'] {
+  background-color: unset !important;
+  transition: unset;
+}
+.background-color-full [class~='ant-tree-treenode-selected'] [role~='img'] {
+  color: #fff !important;
+}
+.tree-node-drawer-styl [class~='ant-tree-treenode'] {
+  padding: 4px 0 4px 0;
+}
+.tree-node-drawer-styl [class~='ant-tree-treenode']:nth-child(odd) {
+  background: #f9fafc !important;
+}
+.tree-node-drawer-styl [class~='ant-tree-checkbox'] {
+  position: absolute;
+  right: 0;
+  z-index: 99;
+}
+.tree-node-drawer-styl [class~='ant-tree-node-selected'] {
+  background-color: unset !important;
+}
+.tree-node-drawer-styl [class~='ant-tree-node-content-wrapper']:hover .tree-title-box-title {
+  background-color: transparent;
+}
+.tree-node-drawer-styl [class~='ant-tree-list-scrollbar'] {
+  right: -8px !important;
+}
+.tree-node-drawer-styl [class~='ant-tree-node-content-wrapper'] {
+  display: flex;
+  flex: 1;
+}
+.tree-node-drawer-styl .tree-title-box-title {
+  flex: 1;
+  width: 0px;
+  max-width: none;
+  background: none;
+}
+.tree-node-drawer-styl [class~='ant-tree-title'] {
+  flex: 1;
+}
+.tree-node-drawer-styl .tree-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.tree-node-drawer-styl .drawer-selectable {
+  padding: 0 10px;
+  color: #4fa1fb;
+  font-size: 17px;
+  text-align: left;
+}

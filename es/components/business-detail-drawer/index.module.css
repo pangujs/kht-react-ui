@@ -1,0 +1,37 @@
+.base-info-box {
+  display: flex;
+  align-items: center;
+}
+.base-info-box .left {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  min-width: 0;
+}
+.base-info-box .img {
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+}
+.base-info-box .text {
+  flex: 1;
+  min-width: 0;
+  padding-left: 20px;
+}
+.base-info-box .text .name {
+  padding-bottom: 5px;
+  overflow: hidden;
+  font-weight: 500;
+  font-size: 16px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.base-info-box .text .desc {
+  color: #666;
+}
+.base-info-box .right-icon {
+  color: #c5c5c5;
+  font-size: 14px;
+  cursor: pointer;
+}

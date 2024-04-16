@@ -1,0 +1,13 @@
+.household-user-row {
+  display: flex;
+}
+.household-user-row .ant-select {
+  flex: 1 !important;
+  min-width: 0 !important;
+}
+.household-user-row.household-user-row-width .ant-select {
+  flex: none !important;
+}
+.household-user-row ~ .household-user-row {
+  margin-top: 10px;
+}

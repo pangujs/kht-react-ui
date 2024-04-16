@@ -1,0 +1,26 @@
+.cell-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 24px;
+  color: #666;
+}
+.cell-box .cell-left {
+  display: flex;
+  flex: 1;
+  min-width: 0;
+}
+.cell-box .cell-left .cell-label {
+  width: 108px;
+  color: #7f7f7f;
+}
+.cell-box .cell-left .cell-content {
+  flex: 1;
+  min-width: 0;
+  cursor: pointer;
+}
+.cell-box .right-icon {
+  color: #c5c5c5;
+  font-size: 14px;
+  cursor: pointer;
+}

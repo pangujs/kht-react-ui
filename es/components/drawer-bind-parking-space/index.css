@@ -1,0 +1,172 @@
+.select-bind-parking-drawer .ant-drawer-header {
+  height: 59px;
+  min-height: 59px;
+  max-height: 59px;
+  padding-left: 15px;
+}
+.select-bind-parking-drawer .ant-drawer-header .ant-drawer-close {
+  margin-right: 8px;
+}
+.select-bind-parking-drawer .ant-drawer-body {
+  position: relative;
+  box-sizing: border-box;
+  padding: 20px 0 0 0;
+}
+.select-bind-parking-drawer .ant-drawer-body .table-content {
+  height: calc(100vh - 240px);
+  padding: 0 27px;
+}
+.select-bind-parking-drawer .ant-drawer-body .table-content .project-name {
+  margin-bottom: 19px;
+  color: #666666;
+  font-size: 14px;
+  font-family: Microsoft YaHei;
+}
+.select-bind-parking-drawer .ant-drawer-body .table-content .ant-input-affix-wrapper {
+  width: 433px !important;
+  height: 32px;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+}
+.select-bind-parking-drawer .ant-drawer-body .table-content .ant-tree {
+  position: relative;
+}
+.select-bind-parking-drawer .ant-drawer-body .table-content .ant-tree-checkbox {
+  position: absolute;
+  right: 0px;
+}
+.select-bind-parking-drawer .pagination-info {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  width: 100%;
+  height: 52px;
+  padding-left: 27px;
+  background: #f8f8f8;
+}
+.select-bind-parking-drawer .pagination-info .ant-checkbox-wrapper {
+  color: #999999;
+}
+.select-bind-parking-drawer .pagination-info .check-info > span:first-child {
+  color: #999999;
+  font-size: 14px;
+}
+.select-bind-parking-drawer .pagination-info .check-info > span:last-child {
+  color: #0178ff;
+  font-size: 14px;
+  cursor: pointer;
+}
+.select-bind-parking-drawer .ant-drawer-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+  background: #fefefe;
+}
+.select-bind-parking-drawer .ant-drawer-footer button {
+  width: 120px;
+  height: 32px;
+  border-radius: 4px;
+}
+.select-bind-parking-drawer .ant-drawer-footer button:first-child {
+  margin-right: 0;
+}
+.selected-drawer-bind-parking-space .ant-drawer-header {
+  height: 59px;
+  min-height: 59px;
+  max-height: 59px;
+  padding-left: 15px;
+}
+.selected-drawer-bind-parking-space .ant-drawer-header .ant-drawer-close {
+  margin-right: 8px;
+}
+.selected-drawer-bind-parking-space .ant-drawer-body {
+  position: relative;
+  box-sizing: border-box;
+  padding: 20px 0 0 0;
+}
+.selected-drawer-bind-parking-space .ant-drawer-body .table-content {
+  height: calc(100vh - 240px);
+  padding: 0 27px;
+}
+.selected-drawer-bind-parking-space .ant-drawer-body .table-content .project-name {
+  margin-bottom: 19px;
+  color: #666666;
+  font-size: 14px;
+  font-family: Microsoft YaHei;
+}
+.selected-drawer-bind-parking-space .ant-drawer-body .table-content .ant-input-affix-wrapper {
+  width: 433px !important;
+  height: 32px;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+}
+.selected-drawer-bind-parking-space .ant-drawer-body .table-content .ant-tree {
+  position: relative;
+}
+.selected-drawer-bind-parking-space .ant-drawer-body .table-content .ant-tree-checkbox {
+  position: absolute;
+  right: 0px;
+}
+.selected-drawer-bind-parking-space .pagination-info {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  width: 100%;
+  height: 52px;
+  padding-left: 27px;
+  background: #f8f8f8;
+}
+.selected-drawer-bind-parking-space .pagination-info .ant-checkbox-wrapper {
+  color: #999999;
+}
+.selected-drawer-bind-parking-space .pagination-info .check-info > span:first-child {
+  color: #999999;
+  font-size: 14px;
+}
+.selected-drawer-bind-parking-space .pagination-info .check-info > span:last-child {
+  color: #0178ff;
+  font-size: 14px;
+  cursor: pointer;
+}
+.selected-drawer-bind-parking-space .ant-drawer-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+  background: #fefefe;
+}
+.selected-drawer-bind-parking-space .ant-drawer-footer button {
+  width: 120px;
+  height: 32px;
+  border-radius: 4px;
+}
+.selected-drawer-bind-parking-space .ant-drawer-footer button:first-child {
+  margin-right: 0;
+}
+.selected-drawer-bind-parking-space .ant-tooltip-inner {
+  color: #000;
+}
+.selected-drawer-bind-parking-space .ant-drawer-body .row {
+  display: flex;
+  align-items: center;
+}
+.selected-drawer-bind-parking-space .ant-drawer-body .row .file {
+  display: inline-block;
+  width: 16px;
+  height: 14px;
+  margin-right: 9px;
+  background: url('../../assets/images/file.png');
+  background-size: 100% 100%;
+}
+.dropdown-menu .ant-dropdown-menu {
+  border-radius: 4px;
+  box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.16);
+}
+.dropdown-menu .ant-dropdown-menu-item {
+  text-align: center;
+}

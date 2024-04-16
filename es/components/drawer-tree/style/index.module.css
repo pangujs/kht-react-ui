@@ -1,0 +1,22 @@
+.drawer-tree-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 49px;
+}
+.drawer-tree-footer button {
+  width: 120px;
+}
+.drawer-tree-footer button ~ button {
+  margin-left: 10px;
+}
+.drawer-tree-wrapper-body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.drawer-tree-wrapper-body .drawer-tree-box {
+  flex: 1;
+  min-height: 0;
+  padding: 20px 20px 0;
+}

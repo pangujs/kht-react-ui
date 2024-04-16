@@ -1,0 +1,171 @@
+.select-department-drawer .ant-drawer-header {
+  height: 59px;
+  padding-left: 15px;
+}
+.select-department-drawer .ant-drawer-header .ant-drawer-close {
+  margin-right: 8px;
+}
+.select-department-drawer .pagination-info {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  width: 100%;
+  height: 52px;
+  padding-left: 27px;
+  background: #f8f8f8;
+}
+.select-department-drawer .pagination-info .ant-checkbox-wrapper {
+  color: #999999;
+}
+.select-department-drawer .pagination-info .check-info > span:first-child {
+  color: #999999;
+  font-size: 14px;
+}
+.select-department-drawer .pagination-info .check-info > span:last-child {
+  color: #0178ff;
+  font-size: 14px;
+  cursor: pointer;
+}
+.select-department-drawer .ant-drawer-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+  background: #fefefe;
+}
+.select-department-drawer .ant-drawer-footer button {
+  width: 120px;
+  height: 32px;
+  border-radius: 4px;
+}
+.select-department-drawer .ant-drawer-footer button:first-child {
+  margin-right: 0;
+}
+.category-drawer-tree-wrapper .ant-drawer-header {
+  padding-left: 14px;
+}
+.category-drawer-tree-wrapper .ant-drawer-body .ant-input-affix-wrapper {
+  width: 100% !important;
+  border-radius: 4px;
+}
+.category-drawer-tree-wrapper .ant-drawer-body .ant-input-affix-wrapper .ant-input-prefix {
+  color: #bbb;
+}
+.category-drawer-tree-wrapper .ant-drawer-body .ant-tree-checkbox {
+  margin: 4px 10px 0 0;
+}
+.category-drawer-tree-wrapper .ant-drawer-body .ant-tree-list .ant-tree-list-holder-inner .ant-tree-node-content-wrapper {
+  padding-left: 0;
+}
+.category-drawer-tree-wrapper .ant-drawer-body .ant-tree-list .ant-tree-treenode {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  padding: 0;
+  padding-left: 8px;
+}
+.category-drawer-tree-wrapper .ant-drawer-body .ant-tree-list .ant-tree-treenode .ant-tree-title > div > div > span {
+  max-width: calc(100% - 25px);
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.category-drawer-tree-wrapper .ant-drawer-body .ant-tree-list .ant-tree-treenode .ant-tree-title .ant-tooltip {
+  max-width: 100%;
+  white-space: wrap;
+}
+.category-drawer-tree-wrapper .ant-drawer-body .ant-tree-list .ant-tree-treenode .ant-tree-switcher {
+  display: flex;
+  align-items: center;
+  width: 10px;
+}
+.category-drawer-tree-wrapper .ant-drawer-body .ant-tree-list .ant-tree-treenode .ant-tree-switcher span {
+  color: #999;
+}
+.category-drawer-tree-wrapper .ant-drawer-body .ant-tree-list .ant-tree-treenode .ant-tree-title {
+  padding-left: 4px;
+}
+.business-selected-drawer .ant-drawer-header {
+  padding-left: 14px;
+}
+.business-selected-drawer .ant-drawer-body {
+  padding: 20px;
+}
+.business-selected-drawer .drawer-body-content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.business-selected-drawer .drawer-body-content .table-content {
+  flex: 1;
+  min-height: 0;
+  overflow: auto !important;
+}
+.business-selected-drawer .drawer-body-content .table-content .ant-tree-treenode {
+  position: relative;
+  min-width: 413px;
+}
+.business-selected-drawer .drawer-body-content .table-content .ant-tree-checkbox {
+  position: absolute;
+  right: 10px;
+}
+.business-selected-drawer .ant-drawer-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+  background: #fefefe;
+}
+.business-selected-drawer .ant-drawer-footer button {
+  width: 120px;
+  height: 32px;
+  border-radius: 4px;
+}
+.business-selected-drawer .ant-drawer-footer button:first-child {
+  margin-right: 0;
+}
+.business-selected-drawer .selected-tag-category-popover {
+  left: 84px !important;
+  max-width: 80%;
+}
+.business-selected-drawer .selected-tag-category-popover .ant-popover-inner-content {
+  padding: 10px;
+}
+.business-selected-drawer .selected-tag-category-popover .ant-popover-inner {
+  color: #000000;
+  border-radius: 4px;
+  box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.24);
+}
+.dropdown-menu .ant-dropdown-menu {
+  border-radius: 4px;
+  box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.16);
+}
+.dropdown-menu .ant-dropdown-menu-item {
+  text-align: center;
+}
+.drawer-tree-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 49px;
+}
+.drawer-tree-footer button {
+  width: 120px;
+}
+.drawer-tree-footer button ~ button {
+  margin-left: 10px;
+}
+.select-tag {
+  position: fixed;
+  right: 0;
+  bottom: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  height: 52px;
+  padding: 0 20px;
+  background: #f8f8f8;
+}

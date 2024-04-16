@@ -1,0 +1,11 @@
+.horizontal-form-div {
+  display: flex;
+  margin-bottom: 24px;
+}
+.horizontal-form-div .label {
+  width: 100px;
+}
+.horizontal-form-div .content {
+  flex: 1;
+  min-width: 0;
+}

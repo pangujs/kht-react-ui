@@ -1,0 +1,11 @@
+.common-table-style {
+  height: 100%;
+}
+.common-table-style .drawer-table-layout {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.common-table-style .drawer-table-layout > .ant-pro {
+  flex: 1;
+}

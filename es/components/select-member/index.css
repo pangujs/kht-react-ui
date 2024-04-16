@@ -1,0 +1,6 @@
+.business-project .ant-pro-card-body {
+  padding: 0 !important;
+}
+.ant-drawer-content-wrapper .ant-table-wrapper .ant-table-tbody tr > td:nth-of-type(2) {
+  position: initial;
+}

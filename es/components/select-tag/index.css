@@ -1,0 +1,124 @@
+.kht-business-select-tag-drawer .ant-drawer-header {
+  padding: 16px 20px;
+}
+.kht-business-select-tag-drawer .ant-drawer-header .ant-drawer-close {
+  margin-right: 10px;
+  padding-right: 0;
+  padding-left: 0;
+}
+.kht-business-select-tag-drawer .ant-drawer-header .ant-drawer-title {
+  color: #333;
+  font-size: 18px;
+}
+.kht-business-select-tag-drawer .ant-drawer-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+}
+.kht-business-select-tag-drawer .ant-drawer-footer .ant-btn {
+  width: 120px;
+}
+.kht-business-select-tag-drawer .ant-drawer-footer .ant-btn ~ .ant-btn {
+  margin-left: 10px;
+}
+.kht-business-select-tag-drawer .ant-drawer-footer .ant-btn.cancel:hover {
+  color: #333;
+  border-color: #1890ff !important;
+}
+.kht-business-select-tag-drawer .tag-drawer-body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.kht-business-select-tag-drawer .tag-drawer-body .tag-drawer-header .total-text {
+  padding-bottom: 10px;
+  font-size: 16px;
+}
+.kht-business-select-tag-drawer .tag-drawer-body .tag-drawer-header .tag-search-box {
+  display: flex;
+  justify-content: space-between;
+}
+.kht-business-select-tag-drawer .tag-drawer-body .tag-drawer-header .tag-search-box .tag-search-box-right .ant-input-prefix {
+  margin-right: 7px;
+}
+.kht-business-select-tag-drawer .tag-drawer-body .select-tag {
+  position: fixed;
+  right: 0;
+  bottom: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  height: 52px;
+  padding: 0 20px;
+  background: #f8f8f8;
+}
+.kht-business-select-tag-drawer .tag-drawer-body .tag-drawer-content {
+  flex: 1;
+  min-height: 0;
+  margin-right: -20px;
+  overflow: auto !important;
+  /* 1,滚动条 */
+  /* 2,滚动条两端的按钮 */
+  /* 3,外层轨道 */
+  /* 4.内层轨道，它会覆盖外层轨道的样式。 */
+  /* 5,滑块 */
+}
+.kht-business-select-tag-drawer .tag-drawer-body .tag-drawer-content::-webkit-scrollbar {
+  width: 8px;
+  /* 纵向滚动条 宽度 */
+  height: 8px;
+  /* 横向滚动条 高度 */
+  background: transparent;
+  /* 整体背景 */
+  border-radius: 4px;
+  /* 整体 圆角 */
+}
+.kht-business-select-tag-drawer .tag-drawer-body .tag-drawer-content::-webkit-scrollbar-button {
+  width: 0;
+  /* 横向滚动条 宽度 */
+  height: 0;
+  /* 纵向滚动条 高度 */
+}
+.kht-business-select-tag-drawer .tag-drawer-body .tag-drawer-content::-webkit-scrollbar-track {
+  border-radius: 4px;
+}
+.kht-business-select-tag-drawer .tag-drawer-body .tag-drawer-content::-webkit-scrollbar-track-piece {
+  border-radius: 4px;
+}
+.kht-business-select-tag-drawer .tag-drawer-body .tag-drawer-content::-webkit-scrollbar-thumb {
+  background: #ddd;
+  border-radius: 4px;
+}
+.kht-business-select-tag-drawer .tag-drawer-body .tag-drawer-content .tab-group-items .group-label {
+  padding: 30px 0 20px 0;
+  color: #333333;
+  font-size: 16px;
+}
+.kht-business-select-tag-drawer .tag-drawer-body .tag-drawer-content .tab-group-items .tag-items {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+.kht-business-select-tag-drawer .tag-drawer-body .tag-drawer-content .tab-group-items .tag-items .tag {
+  position: relative;
+  padding: 5px 15px;
+  color: #666666;
+  font-size: 14px;
+  background: #f3f3f3;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.kht-business-select-tag-drawer .tag-drawer-body .tag-drawer-content .tab-group-items .tag-items .tag.active {
+  color: #ffffff;
+  background: #5796f5;
+}
+.kht-business-select-tag-drawer .tag-drawer-body .tag-drawer-content .tab-group-items .tag-items .tag .close-icon {
+  position: absolute;
+  top: -12px;
+  right: -8px;
+  color: #999999;
+  font-size: 16px;
+  cursor: pointer;
+}

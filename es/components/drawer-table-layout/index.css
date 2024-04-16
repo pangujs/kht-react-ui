@@ -1,0 +1,165 @@
+.delete-select-ground .ant-dropdown-menu .ant-dropdown-menu-item-active,
+.delete-select-ground .ant-dropdown-menu .ant-dropdown-menu-submenu-title-active {
+  color: #1890ff;
+}
+.delete-select-ground .ant-dropdown-menu .ant-dropdown-menu-item-active:hover,
+.delete-select-ground .ant-dropdown-menu .ant-dropdown-menu-submenu-title-active:hover {
+  background-color: transparent;
+}
+.drawer-pro-table-container {
+  height: 100%;
+}
+.drawer-pro-table-container .drawer-search-ground .ant-select-selection-item,
+.drawer-pro-table-container .drawer-search-ground .ant-input {
+  color: #333;
+}
+.drawer-pro-table-container .drawer-table-top {
+  margin-bottom: 20px;
+  color: #666;
+}
+.drawer-pro-table-container .drawer-pro-table {
+  height: calc(100% - 88px - 32px);
+}
+.drawer-pro-table-container .drawer-pro-table .ant-table-wrapper .ant-table-header,
+.drawer-pro-table-container .drawer-pro-table .ant-table-wrapper table {
+  border-radius: 0 !important;
+  border-start-end-radius: 0 !important;
+}
+.drawer-pro-table-container .ant-table-body {
+  overflow: auto !important;
+  /* 1,滚动条 */
+  /* 2,滚动条两端的按钮 */
+  /* 3,外层轨道 */
+  /* 4.内层轨道，它会覆盖外层轨道的样式。 */
+  /* 5,滑块 */
+}
+.drawer-pro-table-container .ant-table-body::-webkit-scrollbar {
+  width: 8px;
+  /* 纵向滚动条 宽度 */
+  height: 8px;
+  /* 横向滚动条 高度 */
+  background: transparent;
+  /* 整体背景 */
+  border-radius: 4px;
+  /* 整体 圆角 */
+}
+.drawer-pro-table-container .ant-table-body::-webkit-scrollbar-button {
+  width: 0;
+  /* 横向滚动条 宽度 */
+  height: 0;
+  /* 纵向滚动条 高度 */
+}
+.drawer-pro-table-container .ant-table-body::-webkit-scrollbar-track {
+  border-radius: 4px;
+}
+.drawer-pro-table-container .ant-table-body::-webkit-scrollbar-track-piece {
+  border-radius: 4px;
+}
+.drawer-pro-table-container .ant-table-body::-webkit-scrollbar-thumb {
+  background: #ddd;
+  border-radius: 4px;
+}
+.drawer-pro-table-container .ant-table-thead > tr > td {
+  border-radius: 0 !important;
+}
+.drawer-pro-table-container .ant-table-thead > tr > th {
+  padding-right: 10px !important;
+  padding-left: 10px !important;
+  border-radius: 0 !important;
+}
+.drawer-pro-table-container .ant-table-tbody tr th,
+.drawer-pro-table-container .ant-table-tbody tr td {
+  padding-right: 10px !important;
+  padding-left: 10px !important;
+}
+.drawer-pro-table-container .ant-table-tbody tr:last-child > td {
+  border: none;
+}
+.drawer-search-ground {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.drawer-search-ground .right {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 176px;
+}
+.drawer-search-ground .right .ant-input-affix-wrapper {
+  padding-right: 7px;
+  padding-left: 7px;
+  border-radius: 4px;
+}
+.drawer-search-ground .right .ant-input-affix-wrapper .ant-input-prefix {
+  margin-right: 10px;
+}
+.drawer-search-ground .select-option {
+  width: 148px;
+  margin-right: 10px;
+  margin-bottom: 15px;
+}
+.drawer-search-ground .select-option .ant-select-selector {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+.drawer-pro-table .ant-pro-card-body {
+  padding: 0;
+}
+.drawer-pro-table .ant-table-tbody tr.ant-table-row-selected > td,
+.drawer-pro-table .ant-table-tbody tr.ant-table-row-selected:hover > td {
+  background-color: transparent;
+}
+.drawer-container .ant-drawer-header {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.drawer-container .ant-drawer-close {
+  margin-right: 10px;
+  padding-right: 0;
+  padding-left: 0;
+}
+.drawer-container .ant-drawer-title {
+  color: #333;
+  font-size: 18px;
+}
+.drawer-container .ant-drawer-body {
+  position: relative;
+  box-sizing: border-box;
+  padding: 20px;
+  overflow: hidden;
+}
+.ant-drawer-body .drawer-table-select-all {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 99;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  width: 100%;
+  height: 52px;
+  padding: 0 30px;
+  color: #999999;
+  background-color: #f8f8f8;
+}
+.ant-drawer-body .drawer-table-select-all .ant-checkbox-wrapper {
+  color: #999999;
+}
+.ant-drawer-body .drawer-table-select-all .ant-checkbox-wrapper > span {
+  padding-right: 0;
+}
+.ant-drawer-footer .ant-btn {
+  width: 120px;
+  margin: 0 5px;
+}
+.ant-drawer-footer .ant-btn.ant-btn-primary span {
+  color: #fff;
+}
+.ant-drawer-footer .ant-btn span {
+  color: #333;
+}
+.ant-drawer-footer .ant-btn.cancel:hover {
+  border-color: #1890ff !important;
+}

@@ -1,0 +1,125 @@
+.project-screen-drawer .ant-drawer-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+  background: #fefefe;
+}
+.project-screen-drawer .ant-drawer-footer button {
+  width: 120px;
+  height: 32px;
+  border-radius: 4px;
+}
+.project-screen-drawer .ant-drawer-footer button:first-child {
+  margin-right: 0;
+}
+.project-screen-drawer .ant-drawer-body {
+  padding: 15px 27px;
+}
+.project-screen-drawer .footer-content-wrapper {
+  width: max-content;
+  color: #0178ff;
+  cursor: pointer;
+}
+.project-screen-drawer .footer-content-wrapper .footer-btn {
+  margin-left: 2px;
+}
+.project-screen-drawer .content-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.project-screen-drawer .content-wrapper .search-container {
+  display: block;
+  min-height: 40px;
+}
+.project-screen-drawer .content-wrapper .table-layout-container {
+  flex: 1;
+}
+.project-screen-drawer .content-wrapper .table-layout-container .drawer-table-layout {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.project-screen-drawer .content-wrapper .table-layout-container .drawer-table-layout > .ant-pro {
+  flex: 1;
+}
+.project-screen-drawer .content-wrapper .table-layout-container .drawer-table-layout > div:last-child {
+  margin-bottom: 10px;
+}
+.project-screen-drawer .content-wrapper .content-item {
+  display: flex;
+  margin-bottom: 20px;
+}
+.project-screen-drawer .content-wrapper .content-item .item-label {
+  margin-right: 36px;
+}
+.project-screen-drawer .content-wrapper .content-item .item-detail {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.project-screen-drawer .content-wrapper .content-item .item-detail > span:last-child {
+  width: max-content;
+  color: #0178ff;
+  cursor: pointer;
+}
+.customer-profile-column-popover .ant-popover-arrow {
+  display: none;
+}
+.customer-profile-column-popover .ant-popover-inner-content {
+  padding: 20px;
+}
+.customer-profile-column-popover .customer-column-detail-wrapper {
+  width: 204px;
+}
+.customer-profile-column-popover .customer-column-detail-wrapper .cell-content {
+  display: flex;
+  margin-top: 10px;
+  color: #666;
+}
+.customer-profile-column-popover .customer-column-detail-wrapper .cell-content .content-box {
+  flex: 1;
+  min-width: 0;
+  min-height: 150px;
+  max-height: 312px;
+  overflow-y: auto;
+  /* 2,滚动条两端的按钮 */
+  /* 3,外层轨道 */
+  /* 4.内层轨道，它会覆盖外层轨道的样式。 */
+  /* 5,滑块 */
+}
+.customer-profile-column-popover .customer-column-detail-wrapper .cell-content .content-box::-webkit-scrollbar {
+  width: 8px;
+  /* 纵向滚动条 宽度 */
+  height: 8px;
+  /* 横向滚动条 高度 */
+  background: transparent;
+  /* 整体背景 */
+  border-radius: 4px;
+  /* 整体 圆角 */
+}
+.customer-profile-column-popover .customer-column-detail-wrapper .cell-content .content-box::-webkit-scrollbar-button {
+  width: 0;
+  /* 横向滚动条 宽度 */
+  height: 0;
+  /* 纵向滚动条 高度 */
+}
+.customer-profile-column-popover .customer-column-detail-wrapper .cell-content .content-box::-webkit-scrollbar-track {
+  border-radius: 4px;
+}
+.customer-profile-column-popover .customer-column-detail-wrapper .cell-content .content-box::-webkit-scrollbar-track-piece {
+  border-radius: 4px;
+}
+.customer-profile-column-popover .customer-column-detail-wrapper .cell-content .content-box::-webkit-scrollbar-thumb {
+  background: #ddd;
+  border-radius: 4px;
+}
+.customer-profile-column-content {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  cursor: pointer;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}

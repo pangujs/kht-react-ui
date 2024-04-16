@@ -1,0 +1,6 @@
+.ant-modal.modal-message .ant-modal-content {
+  border-radius: 8px;
+}
+.ant-modal.modal-message .ant-modal-content .ant-modal-footer {
+  border-top-color: transparent;
+}

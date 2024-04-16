@@ -1,0 +1,18 @@
+.business-project .ant-pro-card-body {
+  padding: 0 !important;
+}
+.not-selected .ant-tooltip-inner {
+  color: #000;
+}
+.not-selected .ant-drawer-body .row {
+  display: flex;
+  align-items: center;
+}
+.not-selected .ant-drawer-body .row .file {
+  display: inline-block;
+  width: 16px;
+  height: 14px;
+  margin-right: 9px;
+  background: url('../../../assets/images/file.png');
+  background-size: 100% 100%;
+}

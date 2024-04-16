@@ -1,0 +1,63 @@
+.add-customer-drawer .ant-drawer-header {
+  height: 59px;
+  padding-left: 15px;
+}
+.add-customer-drawer .ant-drawer-header .ant-drawer-close {
+  margin-right: 8px;
+}
+.add-customer-drawer .ant-drawer-body {
+  padding-top: 29px;
+  padding-left: 18px;
+}
+.add-customer-drawer .ant-drawer-body .label {
+  display: inline-block;
+  margin-right: 35px;
+  color: #666666;
+  font-size: 14px;
+  font-family: Microsoft YaHei;
+}
+.add-customer-drawer .ant-drawer-body .type {
+  margin-bottom: 30px;
+}
+.add-customer-drawer .ant-drawer-body .type .ant-radio-wrapper > span:last-child {
+  padding-left: 10px;
+}
+.add-customer-drawer .ant-drawer-body .type .ant-radio-wrapper:first-child {
+  margin-right: 36px;
+}
+.add-customer-drawer .ant-drawer-body .member-container {
+  display: flex;
+}
+.add-customer-drawer .ant-drawer-body .member-container .detail {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.add-customer-drawer .ant-drawer-body .member-container .detail > span:last-child {
+  width: max-content;
+  color: #0178ff;
+  cursor: pointer;
+}
+.add-customer-drawer .ant-drawer-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+  background: #fefefe;
+}
+.add-customer-drawer .ant-drawer-footer button {
+  width: 120px;
+  height: 32px;
+  border-radius: 4px;
+}
+.add-customer-drawer .ant-drawer-footer button:first-child {
+  margin-right: 0;
+}
+.footer-cancel-btn {
+  background: #f1f1f1;
+  border: none;
+  border-radius: 4px;
+}
+.footer-cancel-btn span {
+  color: #010101;
+}

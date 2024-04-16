@@ -1,0 +1,97 @@
+.modal-title-styl {
+  font-weight: bold;
+  text-align: center;
+}
+.modal-tree-container {
+  display: flex;
+  height: 450px;
+  max-height: 450px;
+}
+.modal-tree-container .tree-sorce {
+  flex: 1;
+  height: 100%;
+  padding-right: 10px;
+}
+.modal-tree-container .select-item {
+  flex: 1;
+  height: 100%;
+  padding: 0 10px;
+  border-left: 1px solid #f3f3f3;
+}
+.modal-tree-container .select-item .tools-styl {
+  display: flex;
+  margin-bottom: 17px;
+}
+.modal-tree-container .select-item .tools-select {
+  flex: 1;
+  text-align: left;
+}
+.modal-tree-container .select-item .tools-select i {
+  color: #1890ff;
+  font-style: normal;
+}
+.modal-tree-container .select-item .tools-clear {
+  color: #1890ff;
+  text-align: right;
+  cursor: pointer;
+}
+.select-list {
+  display: flex;
+  margin: 5px 0;
+  padding: 5px 0;
+  cursor: pointer;
+}
+.select-list [role~='img'] {
+  margin: auto 5px;
+  font-size: 14px;
+}
+.select-list .select-name {
+  flex: 1;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.select-list .suffix {
+  margin-right: 5px;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+.wrapClassName [class~='ant-modal-title'] {
+  font-weight: bold;
+  font-size: 15px;
+  text-align: center;
+}
+.wrapClassName [class~='ant-modal-header'] {
+  border-bottom: unset;
+}
+.wrapClassName [class~='ant-modal-footer'] {
+  background-color: #f5f5f5;
+}
+.item {
+  position: relative;
+  display: flex;
+  padding: 5px 0;
+  cursor: pointer;
+}
+.item .select-icon {
+  position: absolute;
+  right: 10px;
+  flex: 1;
+  text-align: right;
+  cursor: pointer;
+}
+.item .role-icon {
+  width: 20px;
+  padding: 0;
+  vertical-align: text-bottom;
+}
+.selectable {
+  margin: auto;
+  padding-left: 10px;
+  color: #4fa1fb;
+  font-size: 17px;
+  text-align: left;
+}
+.show-role-ul {
+  list-style-type: none;
+}

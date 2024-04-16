@@ -1,0 +1,248 @@
+.batch-import-modal-title {
+  color: #333;
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+}
+.batch-import-modal .ant-modal-content {
+  border-radius: 8px;
+}
+.batch-import-modal .ant-modal-content .ant-modal-header {
+  border: none;
+  border-radius: 8px 8px 0 0;
+}
+.batch-import-modal .ant-modal-content .ant-modal-body {
+  padding: 0;
+}
+.batch-import-modal .batch-import-container {
+  box-sizing: border-box;
+  min-height: 500px;
+  padding: 0 20px;
+}
+.batch-import-modal .batch-import-container .batch-import-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  width: 100%;
+  height: 48px;
+  padding: 0 10px;
+  background: #fffae2;
+  border: 1px solid #fbde7c;
+  border-radius: 4px;
+}
+.batch-import-modal .batch-import-container .batch-import-header span {
+  color: #8c5e27;
+  font-size: 14px;
+}
+.batch-import-modal .batch-import-container .batch-import-header div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 88px;
+  height: 30px;
+  color: #666666;
+  font-size: 12px;
+  background: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.batch-import-modal .batch-import-container .batch-import-header-status {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 300px;
+  height: 53px;
+  margin: 0 auto;
+  margin-top: 12px;
+  background: #f4f9ff;
+  border-radius: 4px;
+}
+.batch-import-modal .batch-import-container .batch-import-header-status .pending {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0 21px;
+}
+.batch-import-modal .batch-import-container .batch-import-header-status .pending > span {
+  margin-right: 12px;
+  color: #666666;
+  font-size: 14px;
+}
+.batch-import-modal .batch-import-container .batch-import-header-status .success,
+.batch-import-modal .batch-import-container .batch-import-header-status .fail {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 21px;
+}
+.batch-import-modal .batch-import-container .batch-import-header-status .success .icon-name,
+.batch-import-modal .batch-import-container .batch-import-header-status .fail .icon-name {
+  display: flex;
+  align-items: center;
+  color: #999999;
+  font-size: 14px;
+}
+.batch-import-modal .batch-import-container .batch-import-header-status .success .icon-name > span,
+.batch-import-modal .batch-import-container .batch-import-header-status .fail .icon-name > span {
+  margin-left: 8px;
+}
+.batch-import-modal .batch-import-container .batch-import-header-status .success .download,
+.batch-import-modal .batch-import-container .batch-import-header-status .fail .download {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 68px;
+  height: 20px;
+  color: #ffffff;
+  font-size: 12px;
+  background: #0178ff;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.batch-import-modal .batch-import-container .batch-import-upload,
+.batch-import-modal .batch-import-container .batch-import-uploading {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 64px;
+}
+.batch-import-modal .batch-import-container .batch-import-upload .upload-span,
+.batch-import-modal .batch-import-container .batch-import-uploading .upload-span {
+  color: #999999;
+  font-size: 12px;
+}
+.batch-import-modal .batch-import-container .batch-import-upload .upload-btn,
+.batch-import-modal .batch-import-container .batch-import-uploading .upload-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 98px;
+  height: 34px;
+  margin-top: 17px;
+  color: #666666;
+  font-size: 14px;
+  background: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 17px;
+  cursor: pointer;
+}
+.batch-import-modal .batch-import-container .batch-import-upload .upload-btn-import,
+.batch-import-modal .batch-import-container .batch-import-uploading .upload-btn-import {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 131px;
+  height: 34px;
+  margin-top: 20px;
+  color: #ffffff;
+  font-size: 14px;
+  background: #0178ff;
+  border-radius: 17px;
+  cursor: pointer;
+}
+.batch-import-modal .batch-import-container .batch-import-record-table {
+  box-sizing: border-box;
+  margin-top: 75px;
+  padding: 0 18px;
+  padding-bottom: 20px;
+}
+.batch-import-modal .batch-import-container .batch-import-record-table .batch-import-record-table-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 13px;
+}
+.batch-import-modal .batch-import-container .batch-import-record-table .batch-import-record-table-title div {
+  color: #000000;
+  font-weight: bold;
+  font-size: 16px;
+}
+.batch-import-modal .batch-import-container .batch-import-record-table .batch-import-record-table-title span {
+  color: #0178ff;
+  font-size: 12px;
+  cursor: pointer;
+}
+.batch-import-modal .batch-import-record-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 541px;
+}
+.batch-import-modal .batch-import-record-container .batch-import-record-info {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  padding-top: 100px;
+}
+.batch-import-modal .batch-import-record-container .batch-import-record-info .batch-import-record-hit {
+  margin-top: 30px;
+  color: #000;
+  font-size: 18px;
+}
+.batch-import-modal .batch-import-record-container .batch-import-record-info .batch-import-record-mess {
+  margin-top: 26px;
+  color: #999999;
+  font-size: 14px;
+}
+.batch-import-modal .batch-import-record-container .batch-import-record-info .batch-import-record-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 131px;
+  height: 34px;
+  margin-top: 40px;
+  color: #ffffff;
+  font-size: 14px;
+  background: #0178ff;
+  border-radius: 17px;
+  cursor: pointer;
+}
+.batch-import-modal .batch-import-record-container .batch-import-record-info .batch-import-record-dbtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 131px;
+  height: 34px;
+  margin-top: 30px;
+  color: #666666;
+  font-size: 14px;
+  background: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 17px;
+  cursor: pointer;
+}
+.batch-import-modal .batch-import-record-container-table {
+  padding: 0 30px;
+}
+.batch-import-modal .batch-import-record-container-table .ant-table {
+  height: 418px;
+}
+.batch-import-modal .batch-import-record-container-table .ant-pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+.batch-import-modal .batch-import-record-container-table .ant-pro-card-body {
+  padding-inline: 0;
+}
+.red {
+  color: red;
+}
+.green {
+  color: green;
+}
+.yellow {
+  color: #ffb55f;
+  opacity: 1;
+}
+.batch-import-upload-blank {
+  height: 220px;
+}

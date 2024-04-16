@@ -1,0 +1,46 @@
+.drawer-table-layout .ant-pro-table {
+  flex: 1;
+}
+.drawer-table-layout .ant-table-wrapper .ant-table-empty .ant-table-tbody tr > td {
+  border-bottom: none;
+}
+.drawer-table-layout .ant-table-wrapper .ant-table-body {
+  overflow: auto !important;
+  /* 1,滚动条 */
+  /* 2,滚动条两端的按钮 */
+  /* 3,外层轨道 */
+  /* 4.内层轨道，它会覆盖外层轨道的样式。 */
+  /* 5,滑块 */
+}
+.drawer-table-layout .ant-table-wrapper .ant-table-body tr.ant-table-row-selected > td {
+  background-color: #fff;
+}
+.drawer-table-layout .ant-table-wrapper .ant-table-body::-webkit-scrollbar {
+  width: 8px;
+  /* 纵向滚动条 宽度 */
+  height: 8px;
+  /* 横向滚动条 高度 */
+  background: transparent;
+  /* 整体背景 */
+  border-radius: 4px;
+  /* 整体 圆角 */
+}
+.drawer-table-layout .ant-table-wrapper .ant-table-body::-webkit-scrollbar-button {
+  width: 0;
+  /* 横向滚动条 宽度 */
+  height: 0;
+  /* 纵向滚动条 高度 */
+}
+.drawer-table-layout .ant-table-wrapper .ant-table-body::-webkit-scrollbar-track {
+  border-radius: 4px;
+}
+.drawer-table-layout .ant-table-wrapper .ant-table-body::-webkit-scrollbar-track-piece {
+  border-radius: 4px;
+}
+.drawer-table-layout .ant-table-wrapper .ant-table-body::-webkit-scrollbar-thumb {
+  background: #ddd;
+  border-radius: 4px;
+}
+.drawer-table-layout .ant-pagination .ant-pagination-options .ant-select-dropdown {
+  top: -116px !important;
+}

@@ -1,0 +1,12 @@
+import React from 'react';
+import './index.less';
+import { DrawerSearchProTableLayoutRefType, DrawerSearchTableEvents, DrawerSearchProTableProperty, ComponentType } from './types';
+export type KhtDrawerSearchProTableRefType = DrawerSearchProTableLayoutRefType;
+export declare const DrawerSearchProTableContext: React.Context<{}>;
+export declare const useDrawerSearchProTable: () => {};
+declare const DrawerSearchProTable: any;
+export default DrawerSearchProTable;
+export declare const API: (props: DrawerSearchProTableProperty) => JSX.Element;
+export declare const Events: (props: DrawerSearchTableEvents) => JSX.Element;
+export declare const Ref: (props: DrawerSearchProTableLayoutRefType) => JSX.Element;
+export declare const Component: (props: ComponentType) => JSX.Element;

@@ -1,0 +1,27 @@
+.user-handle-drawer {
+  height: 100%;
+}
+.user-handle-drawer .phone-list {
+  display: flex;
+}
+.user-handle-drawer .phone-list button {
+  margin-left: 10px;
+}
+.user-handle-drawer .user-handle-drawer-body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.user-handle-drawer .user-handle-drawer-body .user-handle-drawer-tabs {
+  padding-bottom: 24px;
+}
+.user-handle-drawer .user-handle-drawer-body .user-handle-drawer-content {
+  flex: 1;
+  min-height: 0;
+  margin-right: -24px;
+  padding-right: 24px;
+  overflow-y: auto;
+}
+.user-handle-drawer .user-handle-drawer-body .user-handle-drawer-content .ant-pro-card-body {
+  padding: 0;
+}

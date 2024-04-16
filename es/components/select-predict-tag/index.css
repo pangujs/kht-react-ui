@@ -1,0 +1,30 @@
+.drawer-predict-tag {
+  color: #666;
+}
+.drawer-predict-tag .ant-form-item-label > label {
+  color: #666;
+}
+.drawer-predict-tag .ant-drawer-footer {
+  padding: 19px 16px;
+}
+.drawer-predict-tag .predict-tag-wrapper {
+  width: 100%;
+}
+.drawer-predict-tag .predict-tag-wrapper .predict-tag-item {
+  display: flex;
+  margin-bottom: 20px;
+}
+.drawer-predict-tag .predict-tag-wrapper .predict-tag-item .item-label {
+  margin-right: 36px;
+}
+.drawer-predict-tag .predict-tag-wrapper .predict-tag-item .item-value {
+  flex: 1;
+}
+.drawer-predict-tag .predict-tag-wrapper .predict-tag-item .item-value .ant-select {
+  width: 100%;
+}
+.drawer-predict-tag .predict-tag-wrapper .predict-tag-item .item-value > span:last-child {
+  width: max-content;
+  color: #0178ff;
+  cursor: pointer;
+}
